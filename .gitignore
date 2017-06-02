@@ -1,2 +1,9 @@
-/cache/
-/config/development/
+.idea/*
+.phalcon/*
+site-config.ini
+composer.lock
+composer.phar
+vendor/*
+var/cache/*
+var/log/*
+var/tmp/*
