@@ -1,4 +1,5 @@
 CREATE DATABASE `webinspired` /*!40100 COLLATE 'utf8_general_ci' */;
+USE `webinspired`;
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET NAMES utf8 */;
