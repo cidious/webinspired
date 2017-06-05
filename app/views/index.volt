@@ -47,5 +47,5 @@
 <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-<script src="/js/index.js"></script>
+{{ javascript_include("js/index.js") }}
 </html>

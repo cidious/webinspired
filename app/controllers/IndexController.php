@@ -125,5 +125,15 @@ class IndexController extends ControllerBase
             'id' => $item->id
         ]);
     }
+
+    public function makeupAction()
+    {
+        $this->view->disable();
+        return $this->view->getRender('index', 'makeup', null,
+            function ($view) {
+                $view->setRenderLevel(\Phalcon\Mvc\View::LEVEL_ACTION_VIEW);
+            }
+        );
+    }
 }
 
